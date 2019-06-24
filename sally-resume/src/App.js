@@ -1,6 +1,8 @@
 import React from 'react';
+import StudentName from './StudentName.js';
 
 function App() {
+
   return (
     <div>
     <header role="banner">
@@ -12,7 +14,7 @@ function App() {
       Contact Information:
       </header>
       <ul>
-        <li>Name: Sally Student</li>
+        <StudentName name='Sally Student' />
         <li>Email address: <a href="mailto:sstudent@gmail.com"> sstudent@gmail.com</a></li>
         <li>Phone number: (123)456-7890</li>
       </ul>
