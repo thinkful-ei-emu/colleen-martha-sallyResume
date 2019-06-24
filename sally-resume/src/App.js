@@ -1,5 +1,6 @@
 import React from 'react';
 import StudentName from './StudentName.js';
+import PhoneNumber from './PhoneNumber.js';
 
 function App() {
 
@@ -16,7 +17,7 @@ function App() {
       <ul>
         <StudentName name='Sally Student' />
         <li>Email address: <a href="mailto:sstudent@gmail.com"> sstudent@gmail.com</a></li>
-        <li>Phone number: (123)456-7890</li>
+        <PhoneNumber phoneNumber='(123)456-7890'/>
       </ul>
       <img alt="" src="https://vignette.wikia.nocookie.net/broad-city/images/e/e0/Ilana-wexler.jpg/revision/latest?cb=20160210220217"/>
     </address>
